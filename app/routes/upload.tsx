@@ -46,6 +46,7 @@ const Upload = () => {
         setStatusText("Preparing data...")
 
         const uuid = generateUUID();
+        console.log("Resume Creation id: ",uuid);
         const data = {
             id: uuid,
             resumePath: uploadedFile.path,
