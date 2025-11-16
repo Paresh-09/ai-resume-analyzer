@@ -18,10 +18,9 @@ export default function Home() {
     const location = useLocation();
     const next = location.search.split('next=')[1];
     const navigate = useNavigate()
-    ;
-    if(auth.isAuthenticated) navigate(next);
-    useEffect(() => {
 
+    useEffect(() => {
+        if(auth.isAuthenticated) navigate(next);
     }, [auth.isAuthenticated,next]);
 
   return <main className="bg-[url('/images/bg-main.svg')] bg-cover">
