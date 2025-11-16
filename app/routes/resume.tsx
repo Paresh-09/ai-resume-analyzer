@@ -60,7 +60,7 @@ const Resume = () => {
             </nav>
             <div className="flex flex-row w-full max-lg:flex-col-reverse">
                 <section
-                    className="feedback-sectionhttp://localhost:5173/resume/undefined bg-cover h-[100vh] sticky top-0 items-center justify-center ">
+                    className="feedback-section  bg-cover h-[100vh] sticky top-0 items-center justify-center ">
                     {
                         imageUrl && resumeUrl && (
                             <div
